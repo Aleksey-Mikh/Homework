@@ -1,5 +1,6 @@
 """
-Create a program that asks the user for a number and then prints out a list of all the [divisors]
+Create a program that asks the user for a number
+and then prints out a list of all the [divisors]
 (https://en.wikipedia.org/wiki/Divisor) of that number.
 
 Examples:

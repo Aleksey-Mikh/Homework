@@ -1,5 +1,6 @@
 """
-Write a Python program to convert a given tuple of positive integers into an integer.
+Write a Python program to convert a given
+tuple of positive integers into an integer.
 
 Examples:
 ```

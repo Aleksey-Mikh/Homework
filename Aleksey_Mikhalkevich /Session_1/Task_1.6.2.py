@@ -1,5 +1,6 @@
 """
-Write a program which makes a pretty print of a part of the multiplication table.
+Write a program which makes a pretty
+print of a part of the multiplication table.
 
 Examples:
 ```
@@ -37,7 +38,10 @@ def drawing_multiplication_table(line, column):
 
 def check_data(line, column):
     if line[0] > line[1] or column[0] > column[1]:
-        print("Please input correct data: second value must be more than first and fourth must be more than third!")
+        print(
+            "Please input correct data: second value must be more"
+            " than first and fourth must be more than third!"
+        )
         return False
     return True
 
@@ -58,7 +62,9 @@ def get_data_for_table(list_numbers):
 
 def main():
     list_numbers = [
-        input(f"Please input data in format \"letter = number\", data received : {i} / 4 - ") for i in range(4)
+        input(f"Please input data in format \"letter = number\","
+              f" data received : {i} / 4 - ")
+        for i in range(4)
     ]
     line, column = get_data_for_table(list_numbers)
     if check_data(line, column):
