@@ -4,11 +4,9 @@ replaces all " symbols with ' and vise versa.
 
 Examples:
 ```
-Input: "Don't forget," said John. "As Mr. B said,
-"it's mandarin, not margarine'."
+Input: "Don't forget," said John. "As Mr. B said, "it's mandarin, not margarine'."
 
-Output: 'Don"t forget,' said John. 'As Mr. B said,
-'it"s mandarin, not margarine".'
+Output: 'Don"t forget,' said John. 'As Mr. B said, 'it"s mandarin, not margarine".'
 ```
 """
 

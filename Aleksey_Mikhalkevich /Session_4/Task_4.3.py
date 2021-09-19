@@ -72,7 +72,6 @@ def test():
     print("-" * 40)
     print(f"Test 5: {string=}, {sep=}")
     print("Test Passed" if string.split(sep=sep) == result_list else "Test Fail")
-    print(string.split(sep=sep), result_list)
 
     sep = 'tot'
     string = "tot sdf fadtot fdaf rtoot"
@@ -80,7 +79,6 @@ def test():
     print("-" * 40)
     print(f"Test 6: {string=}, {sep=}")
     print("Test Passed" if string.split(sep=sep) == result_list else "Test Fail")
-    print(string.split(sep=sep), result_list)
 
 
 def main():

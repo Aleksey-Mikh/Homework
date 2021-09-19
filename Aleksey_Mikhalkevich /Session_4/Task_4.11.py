@@ -3,12 +3,6 @@ Implement a function, that receives changeable number
 of dictionaries (keys - letters, values - numbers) and combines
 them into one dictionary. Dict values should be summarized
 in case of identical keys
-
-Examples:
-```
-Input: 5
-Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
-```
 """
 
 
